@@ -133,6 +133,80 @@ bot = TweetBot.configure do |config|
     responses << "Les femmes se battent pour s'approcher de moi."
   end
 
+  # GERMAN
+
+  config.respond_to_phrase "Du kämpfst wie ein dummer Bauer" do |responses|
+    responses << "Wie passend. Du kämpfst wie eine Kuh."
+  end
+
+  config.respond_to_phrase "Mein Schwert wird Dich durchbohren wie einen Schaschlik" do |responses|
+    responses << "Dann mach nicht damit rum wie mit einem Staubwedel."
+  end
+
+  config.respond_to_phrase "Jeder hier kennt Dich doch als unerfahrenen Dummkopf" do |responses|
+    responses << "Zu schade, dass DICH überhaupt niemand kennt."
+  end
+
+  config.respond_to_phrase "Du hast die Manieren eines Bettlers" do |responses|
+    responses << "Ich wollte, dass du dich wie zuhause fühlst."
+  end
+
+  config.respond_to_phrase "Niemand wird mich verlieren sehen, du auch nicht" do |responses|
+    responses << "Du kannst SO schnell davon laufen?"
+  end
+
+  config.respond_to_phrase "Ich hatte mal einen Hund, der war klüger als du" do |responses|
+    responses << "Er muß dir das Fechten beigebracht haben."
+  end
+
+  config.respond_to_phrase "Menschen fallen mir zu Füßen, wenn ich komme" do |responses|
+    responses << "Auch bevor sie deinen Atem riechen?"
+  end
+
+  config.respond_to_phrase "An deiner Stelle würde ich zur Landratte werden" do |responses|
+    responses << "Hattest du das nicht vor kurzem getan?"
+  end
+
+  config.respond_to_phrase "Dein Schwert hat schon bessere Zeiten gesehen" do |responses|
+    responses << "Und du wirst deine rostige Klinge nie wieder sehen."
+  end
+
+  config.respond_to_phrase "Ich kenne einige Affen, die haben mehr drauf als du" do |responses|
+    responses << "Aha, du warst also beim letzten Familientreffen."
+  end
+
+  config.respond_to_phrase "Keine Worte beschreiben deine Hässlichkeit" do |responses|
+    responses << "Doch, doch, du hast sie nur nie gelernt."
+  end
+
+  config.respond_to_phrase "Willst du hören, wie ich 3 Männer zugleich besiegte?" do |responses|
+    responses << "Willst du mich mit deinem Geschwafel ermüden?"
+  end
+
+  config.respond_to_phrase "Mit meinem Taschentuch werde ich dein Blut aufwischen" do |responses|
+    responses << "Also hast du doch den Job als Putzer gekriegt."
+  end
+
+  config.respond_to_phrase "Du bist kein echter Gegner für mein geschultes Hirn" do |responses|
+    responses << "Vielleicht solltest du es endlich mal benutzen?"
+  end
+
+  config.respond_to_phrase "Trägst du immer noch Windeln?" do |responses|
+    responses << "Wieso, die könntest DU viel eher gebrauchen!"
+  end
+
+  config.respond_to_phrase "Meine Narbe im Gesicht stammt aus einem harten Kampf" do |responses|
+    responses << "Aha, mal wieder in der Nase gebohrt, wie?"
+  end
+
+  config.respond_to_phrase "Deine Fuchtelei hat nichts mit der Fecht-Kunst zu tun" do |responses|
+    responses << "Doch, doch, du hast sie nur nie gelernt."
+  end
+
+  config.respond_to_phrase "An deiner Stelle würde ich zur Landratte werden" do |responses|
+    responses << "Hattest du das nicht vor kurzem getan?"
+  end
+
   config.twitter_auth = TwitterAuth::AuthKeys
 end
 
